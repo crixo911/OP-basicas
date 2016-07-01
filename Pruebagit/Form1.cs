@@ -37,7 +37,7 @@ namespace Pruebagit
 
         private void btnMulti_Click(object sender, EventArgs e)
         {
-            Double num1 = Convert.ToDouble(txtNum1.Text);
+            Int num1 = Convert.ToInt16(txtNum1.Text);
             Double num2 = Convert.ToDouble(txtNum2.Text);
             Double res = 0;
             res = num1 * num2;
